@@ -16,8 +16,7 @@ typedef struct listint_s
     struct listint_s *prev;
     struct listint_s *next;
 } listint_t;
-
-
+void insertion_sort_list(listint_t **list);
 
 
 
