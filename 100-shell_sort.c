@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include "sort.h"
+/**
+ * shell_sort - shell sort algorithm
+ * @array: array
+ * @size: length of the array to sort
+ */
 
 void shell_sort(int *array, size_t size)
 {
@@ -14,6 +19,7 @@ void shell_sort(int *array, size_t size)
 	while (gap > 0)
 	{
 		size_t i;
+
 		for (i = gap; i < size; i++)
 		{
 			int temp = array[i];
